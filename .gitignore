@@ -1,0 +1,7 @@
+captcha*
+*.log
+*.sql
+*.pyc
+lib/
+backend/webpy-master/
+backend/config.py*

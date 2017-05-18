@@ -1,0 +1,17 @@
+<h1>{{headline}}</h1>
+{{#.}}
+<ul>
+	<li>
+		<h2>{{artist}}</h2>
+		{{#paths}}
+		<ul class="paths">
+			{{#.}}
+			<li>
+				<a href='https://www.google.com/search?rls=en&amp;q={{q}}&amp;ie=UTF-8&amp;oe=UTF-8'>{{name}}</a>
+			</li>
+			{{/.}}
+		</ul>
+		{{/paths}}
+	</li>
+</ul>
+{{/.}}
